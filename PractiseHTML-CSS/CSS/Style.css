@@ -1,0 +1,41 @@
+/*CSS Resets*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+body {
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,56,103,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+	color: white;
+	margin: 50px;
+	font-size: 3em;
+	border: 2px solid lime;
+}
+
+.header {
+	color: lime;
+}
+
+.para {
+	margin: 0 50px;
+	font-size: 2em;
+	border: 2px solid white;
+}
+
+
+section {
+	width: 50%;
+	float: left;
+	border: 2px solid red;
+}
+
+section::after {
+	clear: both;
+}
